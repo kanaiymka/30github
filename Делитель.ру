@@ -1,0 +1,25 @@
+a = int(input())
+
+b = int(input())
+
+max_sum = 0
+
+best_number = 0
+
+for num in range(a, b + 1):
+
+    div_sum = 0
+
+    for i in range(1, num + 1):  
+
+        if num % i == 0:
+
+            div_sum += i
+
+    if div_sum > max_sum or (div_sum == max_sum and num > best_number):
+
+        max_sum = div_sum
+
+        best_number = num
+
+print(best_number, max_sum)
