@@ -1,0 +1,19 @@
+num = input()
+
+digits = [int(d) for d in num]
+
+sum_digits = sum(digits)
+count_digits = len(digits)
+prod_digits = 1
+for d in digits:
+    prod_digits *= d
+avg_digits = sum_digits / count_digits
+first_digit = digits[0]
+sum_first_last = digits[0] + digits[-1]
+
+print(sum_digits)
+print(count_digits)
+print(prod_digits)
+print(avg_digits)
+print(first_digit)
+print(sum_first_last)
