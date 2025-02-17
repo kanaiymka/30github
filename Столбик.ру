@@ -1,0 +1,3 @@
+s = input()  
+for char in reversed(s):  
+    print(char)
