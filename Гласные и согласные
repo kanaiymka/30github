@@ -1,0 +1,11 @@
+
+text = input()
+vowels = "ауоыиэяюеАУОЫИЭЯЮЕ"
+consonants = "бвгджзйклмнпрстфхцчшщБВГДЖЗЙКЛМНПРСТФХЦЧШЩ"
+
+vowel_count = sum(1 for char in text if char in vowels)
+consonant_count = sum(1 for char in text if char in consonants)
+
+
+print(f"Количество гласных букв равно {vowel_count}")
+print(f"Количество согласных букв равно {consonant_count}")
