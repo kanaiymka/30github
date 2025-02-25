@@ -1,0 +1,5 @@
+k = int(input())
+a = int(input())
+n = int(input())
+i = int(input())
+print(min(k, a, n, i))
