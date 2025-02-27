@@ -1,0 +1,12 @@
+a, b, c = int(input()), int(input()), int(input())
+if a != b:
+    if a != c:
+        if c != b:
+            print("Разносторонний")
+if a == b:
+   if b == c:
+       print("Равносторонний")
+x = [a, b, c]
+x = set(x)
+if len(x) == 2:
+    print("Равнобедренный")
