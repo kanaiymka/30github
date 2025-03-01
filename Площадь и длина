@@ -1,0 +1,7 @@
+from math import pi, pow
+R = float(input())
+S = pi * pow(R, 2)
+c = 2 * pi * R
+print(S)
+print(c)
+
